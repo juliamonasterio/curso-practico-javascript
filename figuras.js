@@ -19,6 +19,21 @@ function perimetroTriangulo (lado1, lado2, base) {
 function areaTriangulo (base,altura) { 
     return (base*altura)/2};
 
+
+function alturaTrianguloIsosceles(lado1,lado2,base){
+    if(lado1===lado2 ){
+
+     return Math.sqrt((lado1*lado1)-((lado2*lado2)/4))
+    }
+    else{
+        console.error("No es un triangulo isosceles");
+    }
+
+}
+
+
+console.log(alturaTrianguloIsosceles(2,2,4));
+
 //Circulo
 
 function diametroCirculo(radio){ 
