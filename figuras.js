@@ -19,7 +19,7 @@ function perimetroTriangulo (lado1, lado2, base) {
 function areaTriangulo (base,altura) { 
     return (base*altura)/2};
 
-
+  
 function alturaTrianguloIsosceles(lado1,lado2,base){
     if(lado1===lado2 ){
 
